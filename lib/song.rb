@@ -1,10 +1,10 @@
 class Song
-  attr_accessor 
+  attr_accessor
 
   @@songs = []
 
-  def initialize
-
+  def initialize(name)
+    @name = name
   end
 
 
