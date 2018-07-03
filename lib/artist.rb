@@ -13,3 +13,4 @@ class Artist
     @song
   end
 end
+
