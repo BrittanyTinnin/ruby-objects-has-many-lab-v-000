@@ -5,15 +5,15 @@ class Artist
 
   def initialize(name)
     @name = name
-    @song = []
+    @songs = []
   end
 
-  def add_song(song)
-    @song << song
+  def add_song(songs)
+    @songs << songs
   end
 
   def songs
     # binding.pry
-    @song
+    @songs
   end
 end
