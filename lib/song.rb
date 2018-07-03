@@ -6,9 +6,7 @@ class Song
   @@all = []
 
   def initialize(name)
-    binding.pry
-    @name = name
-    @@all << song
+  
   end
 
 
