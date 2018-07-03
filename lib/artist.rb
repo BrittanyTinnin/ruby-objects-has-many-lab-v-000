@@ -8,6 +8,10 @@ class Artist
     @song = []
   end
 
+  def add_song(song)
+    
+  end
+  
   def songs
     # binding.pry
     @song
